@@ -21,6 +21,7 @@ body {
 
     --section-color: rgb(168, 168, 168);
     --section-name-color: #2b2b2b;
+    --section-text: #6b7280;
     --gradient: linear-gradient(135deg, var(--section-color) 0%, #7d7d7d 100%);
 
     --header-color: rgb(100, 100, 100, 800);
@@ -65,7 +66,7 @@ body {
 
 .section-subtitle {
     text-align: center;
-    color: #6b7280;
+    color: var(--section-text);
     margin-bottom: 3rem;
     font-size: 1.1rem;
 }
