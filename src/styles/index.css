@@ -16,6 +16,7 @@ body {
 
 :root {
     --bg-color: rgba(248, 248, 248);
+    --bg-picture: rgba(93, 108, 107, 0.587);
     --btn-color: rgba(185, 185, 185, 0.966);
 
     --section-color: rgb(168, 168, 168);
