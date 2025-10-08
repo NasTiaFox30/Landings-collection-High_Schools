@@ -8,7 +8,7 @@ const Contact = () => {
     lastName: '',
     email: '',
     phone: '',
-    interest: '',
+    question: '',
     message: ''
   })
 
@@ -33,7 +33,7 @@ const Contact = () => {
         lastName: '',
         email: '',
         phone: '',
-        interest: '',
+        question: '',
         message: ''
       })
       setIsSubmitting(false)
@@ -129,17 +129,16 @@ const Contact = () => {
               </div>
               <div className="form-group">
                 <select 
-                  name="interest"
-                  value={formData.interest}
+                  name="question"
+                  value={formData.question}
                   onChange={handleInputChange}
                   required
                 >
-                  <option value="">Select Language of Interest</option>
-                  <option value="english">English</option>
-                  <option value="spanish">Spanish</option>
-                  <option value="french">French</option>
-                  <option value="german">German</option>
-                  <option value="mandarin">Mandarin</option>
+                  <option value="">Select kind of question:</option>
+                  <option value="recruiting">Recruiting</option>
+                  <option value="documents">Documents</option>
+                  <option value="events">Shool events</option>
+                  <option value="other">other</option>
                 </select>
               </div>
               <div className="form-group">
