@@ -11,7 +11,7 @@
 
 /* Scrolled */
 .navbar.scrolled {
-    background: rgba(125, 125, 125, 0.966);
+    background: var(--header-color);
 }
 
 .navbar .container {
