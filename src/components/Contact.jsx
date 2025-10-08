@@ -27,7 +27,7 @@ const Contact = () => {
     
     // Simulate form submission
     setTimeout(() => {
-      alert('Thank you for your send message! That`s only demo form. Coming soon...')
+      alert('Thank you for your sent message! That`s only demo form. Coming soon...')
       setFormData({
         firstName: '',
         lastName: '',
