@@ -1,4 +1,5 @@
 import '../styles/About.css'
+import mainphoto from "/public/images/mainphoto.jpg"
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-image">
-            <img src="/images/mainphoto.jpg" alt="College" />
+            <img src={mainphoto} alt="College" />
           </div>
           <div className="about-text">
             <h2>About King's College</h2>
