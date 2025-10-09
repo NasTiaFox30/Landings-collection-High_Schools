@@ -7,7 +7,7 @@ const Contact = () => {
     <section id="contact" className="contact-section section">
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
-        <p className="section-subtitle">Ready to start your language learning journey? Contact us today!</p>
+        <p className="section-subtitle">Contact us and you've replied today!</p>
         <div className="contact-content">
           <Information />
           <ContactForm />
