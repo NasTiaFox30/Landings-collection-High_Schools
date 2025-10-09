@@ -40,8 +40,8 @@ const Gallery = () => {
   return (
     <section id="gallery" className="gallery-section section">
       <div className="container">
-        <h2 className="section-title">School Gallery</h2>
-        <p className="section-subtitle">Take a look at our modern facilities and vibrant learning environment</p>
+        <h2 className="section-title">College Gallery</h2>
+        <p className="section-subtitle">Take a look at our events and vibrant learning environment</p>
         <div className="gallery-grid">
           {galleryItems.map((item, index) => (
             <div 
