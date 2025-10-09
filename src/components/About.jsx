@@ -6,13 +6,14 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-image">
-            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop" alt="Students learning" />  {/*example*/} 
+            <img src="/images/mainphoto.jpg" alt="College" />
           </div>
           <div className="about-text">
-            <h2>About Masyoro Vocational School</h2>
-            <p>For over 25 years, Masyoro Vocational School has been at the forefront of language education, providing comprehensive training programs that prepare students for global opportunities.</p>
-            <p>Our institution offers specialized courses in English, Spanish, French, German, and Mandarin, taught by experienced native speakers and certified instructors. We combine traditional teaching methods with modern technology to create an immersive learning environment.</p>
-            <p>With state-of-the-art facilities, small class sizes, and personalized attention, we ensure that every student receives the support they need to achieve fluency and confidence in their chosen language.</p>
+            <h2>About King's College</h2>
+              <p>Welcome to King's College, a distinguished educational institution dedicated to fostering academic excellence and developing strong character in its students. Located on the serene Old Northern Highway in Belize, our beautiful, tree-lined campus provides an ideal environment for learning and growth.</p>
+            <h3>Our History</h3>
+              <p>Established in 1967, King's College has proudly served the Belizean community for over five decades. Our foundation is built on a commitment to nurturing young men and women into ethical, knowledgeable, and globally aware citizens.</p>
+              <p>Our motto, "Future Leaders for the World," is the driving force behind everything we do. We strive to provide a balanced education that challenges the mind, encourages creativity, and instills the values necessary for leadership in the modern world.</p>
           </div>
         </div>
       </div>
