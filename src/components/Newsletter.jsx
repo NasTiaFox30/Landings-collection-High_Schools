@@ -21,7 +21,7 @@ const Newsletter = () => {
       <div className="newsletter-section">
         <div className="container">
           <h3>Stay Updated</h3>
-          <p>Subscribe to our newsletter for the latest news, course updates, and special offers</p>
+          <p>Subscribe to our newsletter for the latest news, events, and special offers</p>
           <form className="newsletter-form" onSubmit={handleNewsletterSubmit}>
             <input 
               type="email" 
