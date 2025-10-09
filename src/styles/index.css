@@ -14,7 +14,7 @@ body {
     color: #333;
 }
 
-:root {
+/* :root {
     --bg-color: rgba(248, 248, 248);
     --bg-picture: rgba(93, 108, 107, 0.587);
     --btn-color: rgba(152, 152, 152, 0.966);
