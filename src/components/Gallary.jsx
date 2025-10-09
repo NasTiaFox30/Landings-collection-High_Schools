@@ -64,7 +64,7 @@ const Gallery = () => {
             <button className="lightbox-close" onClick={() => setSelectedImage(null)}>
               &times;
             </button>
-            <img src={selectedImage.largeSrc} alt={selectedImage.caption} />
+            <img src={selectedImage.src} alt={selectedImage.caption} />
             <p>{selectedImage.caption}</p>
           </div>
         </div>
