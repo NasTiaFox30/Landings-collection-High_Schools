@@ -6,27 +6,27 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&h=900&fit=crop',  //example
-      title: 'Masyoro Vocational School',
-      subtitle: 'Excellence in Language Education Since 1995',
-      buttonText: 'Learn More',
+      image: '/images/slider1.jpg',
+      title: "FUTURE LEADERS FOR THE WORLD",
+      subtitle: "Empowering excellence in academics and character since 1967.",
+      buttonText: 'Discover',
       buttonLink: '#about'
     },
     {
-      image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?w=1600&h=900&fit=crop',  //example
-      title: 'Shape Your Future',
-      subtitle: 'Professional Language Training for Global Success',
-      buttonText: 'Get Started',
+      image: '/images/slider2.jpg',
+      title: 'VIBRANT COLLEGE LIFE',
+      subtitle: 'A nurturing environment on the Old Northern Highway for growth and success.',
+      buttonText: 'Explore Student Life',
+      buttonLink: '#gallery'
+    },
+    {
+      image: '/images/slider3.jpg',
+      title: 'ACADEMIC EXCELLENCE STARTS HERE',
+      subtitle: 'Unlock your potential with our comprehensive curriculum and dedicated staff.',
+      buttonText: 'Apply Today',
       buttonLink: '#contact'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=1600&h=900&fit=crop',  //example
-      title: 'Expert Instructors',
-      subtitle: 'Learn from Industry Professionals and Native Speakers',
-      buttonText: 'Meet Our Team',
-      buttonLink: '#about'
     }
-  ]
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
