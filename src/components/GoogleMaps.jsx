@@ -5,7 +5,7 @@ const GoogleMaps = () => {
     <section id="map" className="map-section">
       <div className="container">
         <h2 className="section-title">Find Us</h2>
-        <p className="section-subtitle">Visit our shool by your own!</p>
+        <p className="section-subtitle">Visit our college by your own!</p>
       </div>
       
       <div className="map-container">
