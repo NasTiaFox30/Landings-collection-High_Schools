@@ -42,7 +42,10 @@ const Header = () => {
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container">
-          <div className="nav-brand">Masyoro</div>
+          <div className="nav-brand">King's College
+              <img className='logo header-logo' src="/public/logo.jpg" alt="" />
+          </div>
+          
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
             <li><a onClick={() => scrollToSection('home')}>Home</a></li>
             <li><a onClick={() => scrollToSection('about')}>About</a></li>
