@@ -43,7 +43,7 @@ const Header = () => {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container">
           <div className="nav-brand">King's College
-              <img className='logo header-logo' src="/public/logo.jpg" alt="" />
+              <img className='logo-header' src="/public/logo.jpg" alt="" />
           </div>
           
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
