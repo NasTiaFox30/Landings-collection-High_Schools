@@ -7,8 +7,8 @@ const Statistics = () => {
 
   const stats = [
     { number: 1250, label: 'Active Students' },
-    { number: 45, label: 'Expert Teachers' },
-    { number: 28, label: 'Support Staff' }
+    { number: 27, label: 'Expert Teachers' },
+    { number: 15, label: 'Support Staff' }
   ]
 
   useEffect(() => {
