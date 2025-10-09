@@ -1,3 +1,9 @@
+.logo-header {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
 .navbar {
     background: rgba(133, 133, 133, 0.053);
     backdrop-filter: blur(10px);
