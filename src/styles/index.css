@@ -29,6 +29,30 @@ body {
 
     --header-color: rgb(100, 100, 100, 800);
     --footer-color: rgb(100, 100, 100);
+} */
+:root {
+    --primary-blue: #4c89b4;
+    --secondary-green: #4D9A4C;
+    --light-blue: #72AEE0;
+    --accent-yellow: #FFC300;
+
+    --bg-color: #F8F8F8;
+    --bg-picture: rgba(55, 110, 149, 0.7);
+
+    --btn-color: var(--light-blue);
+    --btn-text-color: #181818;
+
+    --icon-color: var(--primary-blue);
+
+    --section-name-color: #2b2b2b;
+    --section-text: #5A5A5A;
+    --section-text-invers: #D1D5DB;
+
+    --section-color: var(--primary-blue);
+    --gradient: linear-gradient(135deg, var(--primary-blue) 0%, #204C70 100%);
+
+    --header-color: #326188e9;
+    --footer-color: #326288;
 }
 
 .section {
