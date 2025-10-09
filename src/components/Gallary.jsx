@@ -6,35 +6,45 @@ const Gallery = () => {
 
   const galleryItems = [
     {
-      src: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=300&fit=crop',
-      largeSrc: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=600&fit=crop',
-      caption: 'Modern Classroom'
+      src: '/images/example1.jpg',
+      caption: ''
     },
     {
-      src: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=300&fit=crop',
-      largeSrc: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop',
-      caption: 'School Library'
+      src: '/images/example2.jpg',
+      caption: ''
     },
     {
-      src: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400&h=300&fit=crop',
-      largeSrc: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=800&h=600&fit=crop',
-      caption: 'Computer Lab'
+      src: '/images/example3.jpg',
+      caption: ''
     },
     {
-      src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=300&fit=crop',
-      largeSrc: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop',
-      caption: 'Study Area'
+      src: '/images/example4.jpg',
+      caption: ''
     },
     {
-      src: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop',
-      largeSrc: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop',
-      caption: 'Group Discussion Room'
+      src: '/images/example5.jpg',
+      caption: ''
     },
     {
-      src: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=300&fit=crop',
-      largeSrc: 'https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&h=600&fit=crop',
-      caption: 'Student Cafeteria'
-    }
+      src: '/images/example6.jpg',
+      caption: 'Shildren day 2023'
+    },
+    {
+      src: '/images/example7.jpg',
+      caption: ''
+    },
+    {
+      src: '/images/example8.jpg',
+      caption: ''
+    },
+    {
+      src: '/images/example9.jpg',
+      caption: ''
+    },
+    {
+      src: '/images/example10.jpg',
+      caption: ''
+    },
   ]
 
   return (
