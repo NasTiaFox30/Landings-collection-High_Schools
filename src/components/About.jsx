@@ -1,5 +1,5 @@
 import '../styles/About.css'
-import mainphoto from "/public/images/mainphoto.jpg"
+import mainphoto from "../assets/images/mainphoto.jpg"
 
 const About = () => {
   return (

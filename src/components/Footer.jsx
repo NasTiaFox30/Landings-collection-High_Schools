@@ -1,5 +1,6 @@
 import '../styles/Footer.css'
-import { FaInstagram,  FaFacebook, FaYoutube, FaLinkedin  } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
+import logo from "/logo.jpg"
 
 const Footer = () => {
 
@@ -20,7 +21,7 @@ const Footer = () => {
             </div>
 
             <div className='logo-container'>
-              <img className='logo-fotter' src="/logo.jpg" alt="" />
+              <img className='logo-fotter' src={logo} alt="" />
             </div>
           </div>
         </div>

@@ -1,26 +1,29 @@
 import { useState, useEffect } from 'react'
 import '../styles/HeroSlider.css'
+import photoslider1 from '../assets/images/slider1.jpg'
+import photoslider2 from '../assets/images/slider2.jpg'
+import photoslider3 from '../assets/images/slider3.jpg'
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const slides = [
     {
-      image: '/images/slider1.jpg',
+      image: photoslider1,
       title: "FUTURE LEADERS FOR THE WORLD",
       subtitle: "Empowering excellence in academics and character since 1967.",
       buttonText: 'Discover',
       buttonLink: '#about'
     },
     {
-      image: '/images/slider2.jpg',
+      image: photoslider2,
       title: 'VIBRANT COLLEGE LIFE',
       subtitle: 'A nurturing environment on the Old Northern Highway for growth and success.',
       buttonText: 'Explore Student Life',
       buttonLink: '#gallery'
     },
     {
-      image: '/images/slider3.jpg',
+      image: photoslider3,
       title: 'ACADEMIC EXCELLENCE STARTS HERE',
       subtitle: 'Unlock your potential with our comprehensive curriculum and dedicated staff.',
       buttonText: 'Apply Today',

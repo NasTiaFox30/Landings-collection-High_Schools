@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import '../styles/Header.css'
+import logo from "/logo.jpg"
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -43,7 +44,7 @@ const Header = () => {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container">
           <div className="nav-brand">King's College
-              <img className='logo-header' src="/public/logo.jpg" alt="" />
+            <img className='logo-header' src={logo} alt="" />
           </div>
           
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
