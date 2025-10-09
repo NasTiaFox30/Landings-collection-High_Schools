@@ -23,7 +23,7 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <div className="footer-copyright">
-            <p>Szkoła</p>
+            <p>King's College - Belize</p>
             <p id="info_firm">&copy; 2025 Stworzone przez GLP</p>
             {/* Creator: Anastasiia Bzova 2025 */}
           </div>
