@@ -17,7 +17,7 @@ Landing page of college - template №1
 
 
 ## Visit site: 
-https://nastiafox30.github.io//
+https://nastiafox30.github.io/Kings-College-landing-page/
 
 ---------------------------------------------------------------
 _**Creator: Anastasiia Bzova 2025**_
