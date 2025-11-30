@@ -14,13 +14,13 @@ export default function App() {
     <div className="App">
       <Header />
       <HeroSlider />
-      {/* <Statistics />   */}
-      <Gallery />
       <About />
-      <Teachers/>
+      <Statistics />  
+      <Gallery />
+      {/* <Teachers/> */}
+      <GoogleMaps />
       <Contact />
       {/* <Newsletter /> */}
-      <GoogleMaps />
       <Footer />
     </div>
   )
