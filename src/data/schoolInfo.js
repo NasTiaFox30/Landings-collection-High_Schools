@@ -11,7 +11,7 @@ export const schoolInfo = {
     typeofSchool: "High School",
     logo: "logo.jpg",
     mainImage: mainPhoto, 
-    mainVideo: "",
+    mainVideo: "https://www.youtube.com/embed/kyzTLwwn0NI?si=57hxmRArZEUVSJh_",
     GoogleMapsEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476.7498959691009!2d-89.13529147824399!3d17.072693400694412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5e431efdad6eb3%3A0x83d2ad616b1fbe2f!2sOur%20Lady%20Of%20Mount%20Carmel%20High%20School!5e0!3m2!1suk!2spl!4v1764543808406!5m2!1suk!2spl",
     
     about: {
