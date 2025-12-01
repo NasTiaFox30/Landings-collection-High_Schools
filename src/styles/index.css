@@ -16,13 +16,13 @@ body {
 }
 
 :root {
-    --primary: #851414;
-    --secondary: #FFC300;
-    --accent: #B52F2F;
+    --primary: #1C4820;
+    --secondary: #E38D00;
+    --accent: #376C3E;
     --addition: #F5F5F5;
 
     --bg-color: var(--addition);
-    --bg-picture: rgba(133, 20, 20, 0.2);
+    --bg-picture: rgba(28, 72, 32, 0.2);
 
     --btn-color: var(--secondary);
     --btn-text-color: var(--primary);
@@ -33,12 +33,12 @@ body {
     --section-text-invers: var(--addition);
 
     --section-color: var(--primary);
-    --gradient: linear-gradient(135deg, var(--primary) 0%, #6E1010 100%);
+    --gradient: linear-gradient(135deg, var(--primary) 0%, #0F2711 100%);
 
-    --header-color: rgba(133, 20, 20, 0.95);
-    --footer-color: #6E1010;
+    --header-color: rgba(28, 72, 32, 0.95);
+    --footer-color: #0F2711;
 
-    --header-menu-color: #851414f7;
+    --header-menu-color: #1C4820f7;
 }
 
 .section {
