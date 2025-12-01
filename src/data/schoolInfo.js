@@ -15,8 +15,8 @@ export const schoolInfo = {
     GoogleMapsEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476.7498959691009!2d-89.13529147824399!3d17.072693400694412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5e431efdad6eb3%3A0x83d2ad616b1fbe2f!2sOur%20Lady%20Of%20Mount%20Carmel%20High%20School!5e0!3m2!1suk!2spl!4v1764543808406!5m2!1suk!2spl",
     
     about: {
-        welcomeText: "where we are committed to providing **rigorous intellectual, spiritual, and physical formation** within the Catholic Tradition, nurturing students to their full potential.",
-        historyText: "Mount Carmel High School (MCHS) was **founded in 1990** to serve the youth of Our Lady of Mount Carmel Parish (OLMC), especially those who are underprivileged. Since its inception, MCHS has been dedicated to instilling **Catholic Tradition** and fostering the potential of students to become fruitful citizens and active members of the Church.",
+        welcomeText: "where we are committed to providing rigorous intellectual, spiritual, and physical formation within the Catholic Tradition, nurturing students to their full potential.",
+        historyText: "Mount Carmel High School (MCHS) was founded in 1990 to serve the youth of Our Lady of Mount Carmel Parish (OLMC), especially those who are underprivileged. Since its inception, MCHS has been dedicated to instilling Catholic Tradition and fostering the potential of students to become fruitful citizens and active members of the Church.",
         footerText: "MCHS is focused on serving our community by ensuring a supportive environment that promotes academic rigor, spiritual growth, and the development of the whole person."
     },
     contacts: {
