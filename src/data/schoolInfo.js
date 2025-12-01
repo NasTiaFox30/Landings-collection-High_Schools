@@ -6,7 +6,7 @@ import slide2 from "../assets/images/slider2.jpg";
 import slide3 from "../assets/images/slider3.jpg";
 
 export const schoolInfo = {
-    name: "Mount Carmel High School ",
+    name: "Mount Carmel High School",
     shortName: "MCHS",
     typeofSchool: "High School",
     logo: "logo.jpg",
