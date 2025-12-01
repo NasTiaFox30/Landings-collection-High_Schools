@@ -120,7 +120,9 @@ const Teachers = () => {
                       <h3>{teacher.name}</h3>
                       <p className="teacher-subject">{hasImage ? teacher.subject : teacher.bio}</p>
                       <div className="teacher-social">
-                        <a href={`mailto:${teacher.email}`} aria-label="Send email">{teacher.email}</a>
+                        {(teacher.email && teacher.email.trim() !== "") && (
+                          <a href={`mailto:${teacher.email}`} aria-label="Send email">{teacher.email}</a>
+                        )}
                       </div>
                     </div>
                   </div>
