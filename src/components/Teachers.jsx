@@ -23,7 +23,12 @@ const Teachers = () => {
     return acc;
   }, {});
 
-  const teachers = Object.entries(schoolInfo.teachers).map(([key, details]) => {
+
+    const teacherDetails = schoolInfo.teachers || {};
+    const processedTeachers = new Set();
+    const teachers = [];
+
+    Object.entries(schoolInfo.teachers).map(([key, details]) => {
     const formattedName = key.replace(/_/g, ' ');
     const image = imageMap[key]; 
 
