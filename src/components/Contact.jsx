@@ -9,8 +9,8 @@ const Contact = () => {
         <h2 className="section-title">Get In Touch</h2>
         <p className="section-subtitle">Contact us and you've replied today!</p>
         <div className="contact-content">
-          <Information />
           <ContactForm />
+          <Information />
         </div>
       </div>
     </section>
