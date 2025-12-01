@@ -28,18 +28,33 @@ const Teachers = () => {
     const processedTeachers = new Set();
     const teachers = [];
 
-    Object.entries(schoolInfo.teachers).map(([key, details]) => {
-    const formattedName = key.replace(/_/g, ' ');
-    const image = imageMap[key]; 
+    Object.entries(teacherDetails).forEach(([key, details]) => {
+        const image = imageMap[key] || null;
+        const formattedName = key.replace(/_/g, ' ');
 
-    return {
-      image: image || null, 
-      name: formattedName,
-      subject: details.subject || "",
-      bio: details.bio || "Teacher",
-      email: details.email || ""
-    };
-  });
+        teachers.push({
+            image: image,
+            name: formattedName,
+            subject: details.subject || "",
+            bio: details.bio || "Teacher",
+            email: details.email || ""
+        });
+        processedTeachers.add(key);
+    });
+
+    Object.keys(imageMap).forEach(key => {
+        if (!processedTeachers.has(key)) {
+            const formattedName = key.replace(/_/g, ' ');
+            
+            teachers.push({
+                image: imageMap[key], 
+                name: formattedName,
+                subject: "",
+                bio: "Teacher",
+                email: ""
+            });
+        }
+    });
 
   useEffect(() => {
     const checkMobile = () => {
