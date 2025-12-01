@@ -18,7 +18,7 @@ export default function App() {
       <GoogleMaps />
       {/* <Statistics />   */}
       <Gallery />
-      {/* <Teachers/> */}
+      <Teachers/>
       <Newsletter />
       <Contact />
       <Footer />
