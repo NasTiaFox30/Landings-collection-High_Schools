@@ -1,15 +1,15 @@
-# Sacred Heart College (landing page)
+# Cornerstone Presbyterian High School (landing page)
 React + Vite
 
 ## Hours
-2 hours.
+3 hours.
 
 ## Started - Ended
 01.12.2025 - 01.12.2025
 
 
 # Application:
-Landing page of college - template №7
+Landing page of college - template №8
 
 
 ## Libraries:
@@ -19,7 +19,7 @@ Landing page of college - template №7
 
 
 ## Visit site: 
-https://nastiafox30.github.io/Sacred_Heart_College-landing-page/
+https://nastiafox30.github.io/Cornerstone_Presbyterian_High_School-landing-page/
 
 ---------------------------------------------------------------
 _**Creator: Anastasiia Bzova 2025**_
