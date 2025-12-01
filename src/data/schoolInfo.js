@@ -32,7 +32,7 @@ export const schoolInfo = {
     },
     socials: {
         facebook: "https://www.facebook.com/mountcarmelrecruitment16/",
-        instagram: "https://www.instagram.com/explore/locations/628915690610298/our-lady-of-guadalupe-roman-catholic-high-school/",
+        instagram: "",
         linkedin: "",
         youtube: "",
     },
