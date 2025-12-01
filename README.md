@@ -1,15 +1,15 @@
-# Our Lady of Guadalupe Roman Catholic High School (landing page)
+# Our lady of Mount Carmel High School (landing page)
 React + Vite
 
 ## Hours
-5 hours.
+2 hours.
 
 ## Started - Ended
-30.11.2025 - 30.11.2025
+01.12.2025 - 01.12.2025
 
 
 # Application:
-Landing page of college - template №5
+Landing page of college - template №6
 
 
 ## Libraries:
