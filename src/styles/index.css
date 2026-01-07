@@ -17,7 +17,7 @@ body {
 
 :root {
     --primary: #1C4820;
-    --secondary: #E38D00;
+    --secondary: #e30000;
     --accent: #376C3E;
     --addition: #F5F5F5;
 
@@ -25,7 +25,7 @@ body {
     --bg-picture: rgba(28, 72, 32, 0.2);
 
     --btn-color: var(--secondary);
-    --btn-text-color: var(--primary);
+    --btn-text-color: var(--addition);
 
     --icon-color: var(--secondary);
     --section-name-color: var(--secondary);
