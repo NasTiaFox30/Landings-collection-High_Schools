@@ -6,54 +6,54 @@ import slide2 from "../assets/images/slider2.jpg";
 import slide3 from "../assets/images/slider3.jpg";
 
 export const schoolInfo = {
-    name: "Cornerstone Presbyterian High School",
-    shortName: "CPHS",
+    name: "Escuela Secundaria Tecnica Mexico",
+    shortName: "ESTM",
     typeofSchool: "High School",
     logo: "logo.jpg",
     mainImage: mainPhoto, 
     mainVideo: "",
-    GoogleMapsEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77257.68884013493!2d-88.50796992471486!3d18.354221589857328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5beca42a910f2d%3A0x8dc1b500d1175fb1!2sCornerstone%20Presbyterian%20High%20School!5e1!3m2!1suk!2spl!4v1764617232417!5m2!1suk!2spl",
+    GoogleMapsEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1339.2432134072526!2d-88.5105765802429!3d18.303810868596987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5becf1aaaaaaab%3A0x90157dc63b8b4a44!2sEscuela%20Secundaria%20T%C3%A9cnica%20M%C3%A9xico!5e0!3m2!1suk!2spl!4v1767807285971!5m2!1suk!2spl",
     about: {
-        welcomeText: "where we invite you to browse our site, learn of our different schools, and meet our dedicated teachers! We encourage you to become part of our vision in expanding and developing our institutions. Explore our news, technology, projects, and services, and feel free to contact us for any information. Thank you for stopping by!",
-        historyText: "The core mission of Cornerstone Presbyterian High School (Belize) is to deliver an educational experience deeply rooted in Presbyterian Christian values while ensuring academic excellence and holistic development. We are committed to nurturing a vibrant and loving community where every student feels celebrated and empowered. Our primary academic goal is to provide students with the essential knowledge and talents required for success in the 21st century. This goes beyond mere intellectual instruction; it involves actively cultivating a student's innate abilities through a rigorous and supportive curriculum. We believe that by celebrating diversity in talent, we prepare students to occupy meaningful and productive roles in Belizean society and beyond. Character and Conduct Development Crucially, our mission emphasizes character formation. We strive to lead each young person in the comprehensive development of positive skills, attitudes, character, and conduct. This formation is guided by the principle of service: teaching students to live lives that 'please God and serve their fellowman.' This focus ensures that our graduates are not only academically capable but are also ethical leaders and responsible citizens prepared to contribute fruitfully to their communities. In essence, Cornerstone Presbyterian High School endeavors to shape students who are academically prepared, spiritually grounded, and socially responsible, enabling them to make a positive and lasting impact in all aspects of life.",
-        footerText: "Vision Statement: Our goal is to guide, prepare, and motivate students through Christ-centered education to positively impact our communities and the world we serve."
+        welcomeText: "Welcome to Escuela Secundaria Tecnica Mexico! We invite you to explore our campus digitally, discover our specialized technical programs, and meet our expert instructors. Join us in our vision of driving innovation and development through education. Stay updated with our latest projects and services—we are here to help you succeed!",
+        historyText: "The core mission of Escuela Secundaria Tecnica Mexico (ESTM) is to deliver a comprehensive educational experience that balances academic rigor with specialized technical skills. We are dedicated to fostering a supportive learning environment where every student is challenged to excel. Our primary goal is to equip students with the practical knowledge and vocational talents essential for the 21st-century workforce. Beyond the classroom, we actively cultivate innate abilities in fields such as Agriculture and Technical Sciences, ensuring our graduates are ready for both higher education and the professional world. Character development is central to our philosophy; we strive to instill discipline, integrity, and a spirit of service. By promoting social responsibility and technical proficiency, ESTM prepares students to become productive citizens and ethical leaders who contribute meaningfully to the growth of Belize.",
+        footerText: "Vision Statement: To guide and inspire students through technical excellence and holistic education, empowering them to make a significant impact on our nation and the global community."
     },
     contacts: {
         country: "Belize",
-        address: "Box 232, Mile 74 1/2 Philip Goldson Highway ",
-        phoneMain: "(+501) 671 2615",
-        phoneAdditional: "(+501) 670 9374",
-        email: "therockjesus@gmail.com" ,
+        address: "San Roman Village, Corozal District Belize, Central America",
+        phoneMain: "(+501) 423-3140",
+        phoneAdditional: "(+501) 621-1051",
+        email: "estm83@estm.edu.bz",
         businessHours: {
-            weekdays: "Mon-Fri: 8:00 AM - 3:30 AM",
+            weekdays: "Mon-Fri: 7:00 AM - 4:30 PM",
             // saturday: "Saturday: 12:00 AM - 4:00 AM"
         }
     },
     socials: {
-        facebook: "https://www.facebook.com/p/Cornerstone-Presbyterian-High-School-100064130531176/",
+        facebook: "https://www.facebook.com/p/Escuela-Secundaria-T%C3%A9cnica-M%C3%A9xico-ESTM-100057288016719/",
         instagram: "",
         linkedin: "",
-        youtube: "https://www.youtube.com/channel/UChkVhmO3expjb-5m7s-zYxQ",
+        youtube: "",
     },
 
     heroSlider: [
         {
-            title: "MISSION: KNOWLEDGE AND TALENT",
-            subtitle: "Nurturing skills, attitudes, character, and conduct to enable students to function fruitfully in society.",
+            title: "PIONEERING TECHNICAL EXCELLENCE",
+            subtitle: "At ESTM, we empower students through a rigorous academic foundation combined with practical technical training.",
             buttonText: "Our Mission",
             buttonLink: "#about",
             image: slide1
         },
         {
-            title: "EXPLORE COLLEGE LIFE",
-            subtitle: "See our Christ-centered education in action: from projects to services, teams, and fun-filled activities in every class.",
+            title: "CULTIVATING CREATIVITY & HERITAGE",
+            subtitle: "We celebrate diversity by encouraging students to express their unique identity through vibrant arts and cultural programs.",
             buttonText: "View Campus Life",
             buttonLink: "#gallery",
             image: slide2
         },
         {
-            title: "BE PART OF OUR COMMUNITY",
-            subtitle: "We invite you to learn about our schools, meet our teachers, and join our fun-filled, expanding vision.",
+            title: "INNOVATING FOR THE FUTURE",
+            subtitle: "Developing hands-on expertise in Agriculture, Information Technology, and Technical Drawing to build tomorrow's leaders.",
             buttonText: "Contact Us Today",
             buttonLink: "#contact",
             image: slide3
@@ -72,8 +72,8 @@ export const schoolInfo = {
     },
 
     stats: [
-        { number: 600, label: 'Active Students' },
-        { number: 28, label: 'Expert Teachers' },
-        { number: 5, label: 'Support Staff' }
-    ] ,
+        { number: 720, label: 'Active Students' },
+        { number: 45, label: 'Expert Teachers' },
+        { number: 12, label: 'Support Staff' }
+    ]
 };
