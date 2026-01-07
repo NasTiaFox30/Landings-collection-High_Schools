@@ -1,15 +1,15 @@
-# Cornerstone Presbyterian High School (landing page)
+# Escuela Secundaria Tecnica Mexico (landing page)
 React + Vite
 
 ## Hours
-3 hours.
+1.5 hours.
 
 ## Started - Ended
-01.12.2025 - 01.12.2025
+07.01.2025 - 07.01.2025
 
 
 # Application:
-Landing page of college - template №8
+Landing page of college - template №10
 
 
 ## Libraries:
@@ -19,7 +19,7 @@ Landing page of college - template №8
 
 
 ## Visit site: 
-https://nastiafox30.github.io/Cornerstone_Presbyterian_High_School-landing-page/
+https://nastiafox30.github.io/Escuela_Secundaria_Tecnica_Mexico-landing-page/
 
 ---------------------------------------------------------------
-_**Creator: Anastasiia Bzova 2025**_
+_**Creator: Anastasiia Bzova 2026**_
