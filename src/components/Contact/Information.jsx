@@ -34,8 +34,9 @@ const Information = () => {
             <i><FaBusinessTime /></i>
             <div>
             <strong>Business Hours:</strong><br />
-                {schoolInfo.contacts.businessHours.weekdays}<br />
-                {schoolInfo.contacts.businessHours.saturday}
+                {schoolInfo.contacts.businessHours.weekdays}
+                {schoolInfo.contacts.businessHours.saturday && <><br />{schoolInfo.contacts.businessHours.saturday}</>}
+                {schoolInfo.contacts.businessHours.sunday && <><br />{schoolInfo.contacts.businessHours.sunday}</>}
             </div>
         </div>
     </div>
