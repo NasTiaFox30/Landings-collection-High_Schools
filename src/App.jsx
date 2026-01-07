@@ -15,13 +15,14 @@ export default function App() {
       <Header />
       <HeroSlider />
       <About />
-      <GoogleMaps />
-      {/* <Statistics />   */}
       <Gallery />
-      <Teachers/>
-      <Newsletter />
+      <GoogleMaps />
       <Contact />
+      <Newsletter />
       <Footer />
+
+      {/* <Statistics />   */}
+      {/* <Teachers/> */}
     </div>
   )
 }
