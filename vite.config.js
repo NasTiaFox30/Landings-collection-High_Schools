@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: /Cornerstone_Presbyterian_High_School-landing-page/           //Replace
+  base: /Corozal_Community_College-landing-page/           //Replace
 })
