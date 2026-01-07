@@ -16,29 +16,29 @@ body {
 }
 
 :root {
-    --primary: #1C4820;
-    --secondary: #E38D00;
-    --accent: #376C3E;
-    --addition: #F5F5F5;
+    --primary: #2B4C8C;
+    --secondary: #D93030;
+    --accent: #F2CC0C;
+    --addition: #FFFFFF;
 
-    --bg-color: var(--addition);
-    --bg-picture: rgba(28, 72, 32, 0.2);
+    --bg-color: #F0F4F8;
+    --bg-picture: rgba(43, 76, 140, 0.1);
 
     --btn-color: var(--secondary);
-    --btn-text-color: var(--primary);
+    --btn-text-color: #FFFFFF;
 
-    --icon-color: var(--secondary);
-    --section-name-color: var(--secondary);
-    --section-text: var(--primary);
+    --icon-color: var(--primary);
+    --section-name-color: var(--primary);
+    --section-text: #333333;
     --section-text-invers: var(--addition);
 
     --section-color: var(--primary);
-    --gradient: linear-gradient(135deg, var(--primary) 0%, #0F2711 100%);
+    --gradient: linear-gradient(135deg, #2B4C8C 0%, #1A305A 100%);
 
-    --header-color: rgba(28, 72, 32, 0.95);
-    --footer-color: #0F2711;
+    --header-color: rgba(43, 76, 140, 0.95);
+    --footer-color: #1A305A;
 
-    --header-menu-color: #1C4820f7;
+    --header-menu-color: rgba(43, 76, 140, 0.98);
 }
 
 .section {
