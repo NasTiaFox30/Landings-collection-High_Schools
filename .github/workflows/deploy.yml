@@ -1,0 +1,82 @@
+name: Deploy Landings
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 1. ЗБІРКА ВСІХ ПРОЄКТІВ
+      - name: Build All Projects
+        run: |
+          # Kings_College
+          cd Kings_College && npm install && npm run build && cd ..
+          
+          # Alvin_L_Young
+          cd Alvin_L_Young_Nazarene_High_School && npm install && npm run build && cd ..
+          
+          # Belmopan
+          cd Belmopan_Comprehensive_School && npm install && npm run build && cd ..
+          
+          # Cornerstone
+          cd Cornerstone_Presbyterian_High_School && npm install && npm run build && cd ..
+          
+          # Corozal
+          cd Corozal_Community_College && npm install && npm run build && cd ..
+          
+          # Escuela
+          cd Escuela_Secundaria_Tecnica_Mexico && npm install && npm run build && cd ..
+          
+          # Mount_Carmel
+          cd Mount_Carmel_High_School && npm install && npm run build && cd ..
+          
+          # Our_Lady
+          cd Our_Lady_of_Guadalupe_RC_High_School && npm install && npm run build && cd ..
+          
+          # Sacred_Heart
+          cd Sacred_Heart_College && npm install && npm run build && cd ..
+          
+          # Saint_Catherine
+          cd Saint_Catherine_Academy && npm install && npm run build && cd ..
+
+      # 2. ПІДГОТОВКА ФАЙЛІВ ДЛЯ ДЕПЛОЮ
+      - name: Prepare out folder
+        run: |
+          mkdir out
+          cp -r Kings_College/dist out/Kings_College
+          cp -r Alvin_L_Young_Nazarene_High_School/dist out/Alvin_L_Young_Nazarene_High_School
+          cp -r Belmopan_Comprehensive_School/dist out/Belmopan_Comprehensive_School
+          cp -r Cornerstone_Presbyterian_High_School/dist out/Cornerstone_Presbyterian_High_School
+          cp -r Corozal_Community_College/dist out/Corozal_Community_College
+          cp -r Escuela_Secundaria_Tecnica_Mexico/dist out/Escuela_Secundaria_Tecnica_Mexico
+          cp -r Mount_Carmel_High_School/dist out/Mount_Carmel_High_School
+          cp -r Our_Lady_of_Guadalupe_RC_High_School/dist out/Our_Lady_of_Guadalupe_RC_High_School
+          cp -r Sacred_Heart_College/dist out/Sacred_Heart_College
+          cp -r Saint_Catherine_Academy/dist out/Saint_Catherine_Academy
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './out'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
