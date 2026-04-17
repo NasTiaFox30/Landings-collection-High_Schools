@@ -11,10 +11,5 @@
 10.  **Escuela Secundaria Tecnica Mexico** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Escuela_Secundaria_Tecnica_Mexico/)
 
 
-## Clone templates:
-```bash
-   git clone [https://github.com/NasTiaFox30/Landings-collection-High_Schools.git](https://github.com/NasTiaFox30/Landings-collection-High_Schools.git)
-```
-
 ---------------------------------------------------------------
 _**Creator: Anastasiia Bzova 2026**_
