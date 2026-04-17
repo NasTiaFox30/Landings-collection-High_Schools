@@ -1,13 +1,23 @@
-10 landing sites for universities and colleges:
-Demo links:
+# King's College (landing page)
+React + Vite
 
-1) 
-2) 
-3) 
-4) 
-5) 
-6) 
-7) 
-8) 
-9) 
-10) 
+## Hours
+19 god.
+
+## Started - Ended
+7.10.2025 - 9.10.2025
+
+
+# Application:
+Landing page of college - template №1
+
+
+## Libraries:
+- react-icons
+
+
+## Visit site: 
+https://nastiafox30.github.io/Kings_College-landing-page/
+
+---------------------------------------------------------------
+_**Creator: Anastasiia Bzova 2025**_
