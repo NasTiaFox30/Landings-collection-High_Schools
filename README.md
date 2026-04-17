@@ -1,3 +1,20 @@
 # Landings-collection (High_Schools)
-1. Kings_College - [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Kings_College/)
-2. 
+1.  **King's College** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Kings_College/)
+2.  **Alvin L. Young Nazarene High School** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Alvin_L_Young_Nazarene_High_School/)
+3.  **Belmopan Comprehensive School** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Belmopan_Comprehensive_School/)
+4.  **Cornerstone Presbyterian High School** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Cornerstone_Presbyterian_High_School/)
+5.  **Corozal Community College** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Corozal_Community_College/)
+6.  **Escuela Secundaria Tecnica Mexico** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Escuela_Secundaria_Tecnica_Mexico/)
+7.  **Mount Carmel High School** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Mount_Carmel_High_School/)
+8.  **Our Lady of Guadalupe RC High School** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Our_Lady_of_Guadalupe_RC_High_School/)
+9.  **Sacred Heart College** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Sacred_Heart_College/)
+10. **Saint Catherine Academy** — [Live Demo](https://nastiafox30.github.io/Landings-collection-High_Schools/Saint_Catherine_Academy/)
+
+
+## Clone templates:
+```bash
+   git clone [https://github.com/NasTiaFox30/Landings-collection-High_Schools.git](https://github.com/NasTiaFox30/Landings-collection-High_Schools.git)
+```
+
+---------------------------------------------------------------
+_**Creator: Anastasiia Bzova 2026**_
