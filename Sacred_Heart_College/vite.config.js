@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Landings-collection-High_Schools/Sacred_Heart_College/'           //Replace
+  base: '/High_Schools-Landings-collection/Sacred_Heart_College/'           //Replace
 })
